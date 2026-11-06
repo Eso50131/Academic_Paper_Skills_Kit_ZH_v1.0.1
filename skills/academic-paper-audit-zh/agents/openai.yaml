@@ -1,0 +1,6 @@
+interface:
+  display_name: "学术论文独立验收（中文版）"
+  short_description: "独立核查论文事实、证据、逻辑与中文表达"
+  default_prompt: "请使用学术论文独立验收 Skill。先独立阅读冻结版本的论文，再对照写作前研究档案和原始证据进行核验，检查是否存在无依据的论断弱化、撤回或防御性免责声明。不要修改论文，单独生成中文验收报告。"
+policy:
+  allow_implicit_invocation: false
